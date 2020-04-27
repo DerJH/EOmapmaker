@@ -2,7 +2,10 @@
 A shiny app to download a satellite image and combine it with an EO outreach poster. 
 
 ## Background
-Welcome! This project hosts the script to the compagnion site to the outreach project *We can see our oceans from space - a tailored illustrated guide to promote engagement with Earth Observation* of the [National Oceangraphic Centre (NOC)](https://www.noc.ac.uk). The project was supported by a generous grant from [AGU](https://www.agu.org). In the project, we made a two-paged leaflet that explains on one page the basic principles of earth observation and features on the other page a recent satelite image of a specified area. The website is run by a shiny application and will enable you to assemble your own printable two-page pdf with a satellite image of an area of your choosing. It uses up to date images from the Sentinel satellites of the European Space agency through the [Sentinel Hub](https://www.sentinel-hub.com) service via a WMS request.
+Welcome! This website is a companion site to the outreach project We can see our oceans from space - a tailored illustrated guide to promote engagement with Earth Observation, funded by the AGU as part of celebrating 100 years of Earth and Space science.  
+[Heuschele.com](https://www.heuschele.com) and the UK [National Oceangraphic Centre](https://www.noc.ac.uk) worked in partnership to make and share a two-paged poster that explains on one page the basic principles of earth observation and features on the other page a recent satellite image of a specified area. 
+
+By running this app you will be able to assemble your own printable two-page pdf version with a satellite image of an area of your choosing. It uses up to date images from the Sentinel satellites of the European Space Agency. This website uses the services provided by Sentinel Hub [Sentinel Hub](https://www.sentinel-hub.com) via a WMS request.
 
 ## The script 
 The script is a shiny application and written in R. In case you want to you use [the complete shiny script](../EOmapmaker/app.R) or parts of it in your own project here are some explanations to the different parts of the script. 
