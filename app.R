@@ -47,7 +47,7 @@ ui <- fluidPage(
     downloadLink("downloadData","Click here for your map."),
     br(),
     br(),
-    p("This script/shiny app was written by Jan Heuschele", tags$a(href="http://heuschele.com/","heuschele.com."))
+    p("This script/shiny app was written by Jan Heuschele", tags$a(href="http://heuschele.com/","heuschele.com."), "The source code is available on", tags$a(href="https://github.com/DerJH/EOmapmaker","Github"))
 )
 
 server <- function(input, output, session) {
