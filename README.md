@@ -8,7 +8,7 @@ Welcome! This website is a companion site to the outreach project We can see our
 By running this app you will be able to assemble your own printable two-page pdf version with a satellite image of an area of your choosing. It uses up to date images from the Sentinel satellites of the European Space Agency. This website uses the services provided by Sentinel Hub [Sentinel Hub](https://www.sentinel-hub.com) via a WMS request.
 
 ## The script 
-The script is a shiny application and written in R. In case you want to you use [the complete shiny script](../EOmapmaker/app.R) or parts of it in your own project here are some explanations to the different parts of the script. 
+The script is a shiny application and written in R. In case you want to you use [the complete shiny script](app.R) or parts of it in your own project here are some explanations to the different parts of the script. 
 
 
 ### Choosing a place on a map
