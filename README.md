@@ -1,5 +1,5 @@
 # EO mapmaker
-A shiny app to download a satellite image and combine it with an EO outreach poster. 
+A [Shiny](https://derjan.shinyapps.io/eomapmaker/) app to download a satellite image and combine it with an [EO outreach poster](NOC_english_map.jpg). 
 
 ## Background
 Welcome! This website is a companion site to the outreach project We can see our oceans from space - a tailored illustrated guide to promote engagement with Earth Observation, funded by the AGU as part of celebrating 100 years of Earth and Space science.  
