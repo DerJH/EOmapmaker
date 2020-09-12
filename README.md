@@ -107,7 +107,7 @@ tryCatch({
 ## Adding an overlay to the satellite image and combining it with the explanatory illustration.
 This part using the R magick package to handle and manipulate the image files
 ```R
-eobs <- image_read("NOC_english_map.jpg")
+eobs <- image_read("NOC_english_map.png")
 overlay <- image_read("NOC_english_frame.png")
 satimage <- image_read("satimage.jpg")
             
