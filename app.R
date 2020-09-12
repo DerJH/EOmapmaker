@@ -136,12 +136,13 @@ server <- function(input, output, session) {
             identifier = input$caption
             requeststart = "?REQUEST=GetMap&BBOX="
             areacoords = paste(coordbox, sep=",", collapse=",")
+            crs = "&CRS=EPSG:3857"
             crs = "&CRS=CRS:84"
             priority = "&PRIORITY=leastCC"
             layers  = "&LAYERS="
             layername = paste(trara())
             today = Sys.Date()
-            lastpart = "&MAXCC10&WIDTH=3300&HEIGHT=2333&FORMAT=image/png&TIME=2020-01-01/"
+            lastpart = "&MAXCC10&WIDTH=2500&HEIGHT=1768&FORMAT=image/png&TIME=2019-07-01/"
              hereyougo = paste(address,identifier,
                                requeststart,areacoords,
                                crs,priority,layers,
